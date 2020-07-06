@@ -22,10 +22,5 @@ for message in messages:
     message_content=content.find("span",{"id":"message"}).text
     
     print(author,message_content)
-
-
-
-
-
 # close web browser
 browser.close()
